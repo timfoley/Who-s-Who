@@ -12,14 +12,14 @@
 * (skip button)
 * score panel
 
-##Setup
+**Setup**
 1. Instantiate an array with names of all students
 
-## Start Game
+**Start Game**
 2. When user clicks 'start', reset score to 0
 3. Shuffle name array
 
-## First student
+**First student**
 4. pop a student name off array
 5. display student name to user
 6. prompt user to click on the right student
@@ -27,8 +27,8 @@
   * if incorrect, subtract 5 points
   * if skipped, subtract 1 point and move to next name
 
-## Next students
+**Next students**
 8. While there are more students, repeat steps 4-7
 
-## Out of students
+**Out of students**
 9. When there are no more students, switch to End Game function
