@@ -1,5 +1,10 @@
+# How it Came to Be
+I started this project when a coworker, [Jon Rojas](https://github.com/jonrojas), asked if I could help him style a back-end app he created for GA's [Back-End Web Development Course](https://generalassemb.ly/education/back-end-web-development). His goal was to automate the process of creating a student orientation guide. In the past, he had put them all together manually using Keynote. Here's the comp he gave me to work with:
+
+![student profile page made in keynote](https://github.com/timfoley/whoswho/blob/master/misc/compOriginal.png?raw=true)
+
 #Libraries/Plugins Used
-* [jquery](https://jquery.com/) - obvious
+* [jquery](https://jquery.com/) - obviously
 * [underscore.js](http://underscorejs.org/) - so I could shuffle my arrays
 * [TinySort](http://tinysort.sjeiti.com/) - to shuffle the `.profile-card`s
 * [Animate.css](http://daneden.github.io/animate.css/) - for the score pop-up alert (thanks Darrius!)
