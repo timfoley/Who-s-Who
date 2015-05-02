@@ -3,6 +3,24 @@ I started this project when a coworker, [Jon Rojas](https://github.com/jonrojas)
 
 ![student profile page made in keynote](https://github.com/timfoley/whoswho/blob/master/misc/compOriginal.png?raw=true)
 
+Here's the [Sample Student Page](https://timfoley.github.io/samplestudent.html) I made based on this layout. Check it out! I still need to add that footer, but that'll be pretty simple.
+
+After that, I created a [Gallery View](https://timfoley.github.io/gallery.html), but it's still not actually connected to anything just yet. I'm really proud of the fact that I was able to get the profile-cards to grow and snap with flex, but keep the "spillover" cards from growing to fill all the space. I didn't want to set a static width, so instead I used some javascript to keep the profile card width equal to the first card:
+
+```javascript
+$(document).ready(resizeCard);
+
+$(window).resize(resizeCard);
+
+
+function resizeCard() {
+  $('.profile-card + .profile-card').css({
+    'max-width': $('.profile-card:first-child').width()
+    });
+}
+```
+It's still kinda janky, but it does the trick! Not to mention I felt super clever for solving my own problem using just a little javascript. 
+
 #Libraries/Plugins Used
 * [jquery](https://jquery.com/) - obviously
 * [underscore.js](http://underscorejs.org/) - so I could shuffle my arrays
