@@ -5,7 +5,8 @@
 * [Animate.css](http://daneden.github.io/animate.css/) - for the score pop-up alert (thanks Darrius!)
 
 #Javascript Pseudocode
-##DOM
+
+**DOM**
 * divs with ID='student-name' for each student
 * start button
 * reset button
