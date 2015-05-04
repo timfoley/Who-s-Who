@@ -159,6 +159,9 @@ h2 {
   max-width: 300px;
 }
 
+.profile-card:hover {
+  cursor: pointer;
+}
 
 
 .profile-card > img {
